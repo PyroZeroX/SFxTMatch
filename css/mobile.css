@@ -1,0 +1,246 @@
+@import url(http://fonts.googleapis.com/css?family=Parisienne);
+body
+{
+	/* ITS READY */
+	margin: 0;
+	height: 100%;
+	font-family: Verdana, Tahoma;
+	padding: 0;
+	background: url('../img/bgtile.png') #C74A4A repeat;
+	overflow: auto;
+	color: #383838;
+	font-size: 10pt;
+}
+
+h1
+{
+	font-size: 48pt;
+	margin: 10px auto -15px auto;
+	color: #fff;
+	opacity: 0.5;
+	-moz-opacity: 0.5;
+	filter:alpha(opacity=50);
+	text-align:center;
+}
+
+h1 a{
+	text-decoration: none;
+}
+
+h2
+{
+	color:#fff;
+	opacity: 0.5;
+	-moz-opacity: 0.5;
+	filter:alpha(opacity=50);
+	margin: 15px;
+	text-align:center;
+	font-style: italic;
+	font-family: 'Parisienne';
+}
+
+a
+{
+	color: pink;
+}
+
+#content
+{
+	width: 470px;
+	margin: 0px auto;
+	padding: 1px;
+	border: 2px solid pink;
+	background: rgba(255,255,255,0.2);
+	-webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+#content h2
+{
+	text-align:left;
+	margin: 1px;
+}
+#container
+{
+	width: 460px;
+}
+
+#tweetdisplay ul
+{
+	list-style: none;
+	text-align:left;
+	padding: 1px;
+	margin: 0;
+	width: 100%;
+	font-size: 10pt;
+}
+
+#tweetdisplay ul li img
+{
+	border: 2px solid pink;
+	display: inline;
+	margin-right: 3px;
+	float: left;
+}
+#tweetdisplay ul li
+{
+	width: 450px;
+	font-size: 12pt;
+	margin: 1px;
+	min-height: 50px;
+	padding: 5px;
+	border-bottom: 2px dashed white;
+}
+.tweet_text
+{
+	width: 90%;
+	color: #383838;
+	font-size: 11pt;
+	vertical-align: text-top;
+	display: inline;
+}
+.tweet_user
+{
+	text-decoration: none;
+	display:inline;
+	color: #fff;
+	font-size: 14pt;
+}
+
+#tweetdisplay ul li:hover
+{
+	background-color: rgba(255,255,255,0.1);
+}
+
+.centered {
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  margin-left: -275px;
+  overflow: auto;
+}
+.tweet_list
+{
+	vertical-align: middle;
+}
+
+#searchcenter
+{
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+}
+#search
+{
+	width: 25%;
+	height: 25px;
+	padding: 8px;
+	color: #fff;
+	font-weight: bold;
+	font-family: tahoma;
+	text-decoration: none;
+	margin-left: 5px;
+	border: 2px solid pink;
+	-webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+#search:hover
+{
+	background-color: pink;
+}
+#terms
+{
+	color: pink;
+	width: 70%;
+	padding: 5px;
+	height: 18px;
+	font-size: 10pt;
+	-webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border: 2px solid pink;
+    border-radius: 2px;
+}
+
+.tweet_reply, .tweet_retweet, .tweet_favorite, .tweet_checkout
+{
+	width: 100px;
+	padding: 5px;
+	color: #fff;
+	font-weight: bold;
+	font-family: tahoma;
+	text-decoration: none;
+	margin:5px;
+	font-size: 8pt;
+	border: 1px solid #fff;
+	background: violet;
+	-webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+.tweet_time
+{
+	font-size: 8pt;
+}
+
+
+#navbar
+{
+	width: 90%;
+	margin: 0px auto 5px auto;
+}
+
+#navitems
+{
+	width: 100%;
+	list-style-type:none;
+	margin: 0 0 -3px;
+	padding:0;
+}
+
+#navitems li
+{
+	width: 25%;
+}
+
+.navitem
+{
+	margin: 0px auto;
+	padding: 5px 15px 5px 15px;
+	color: #fff;
+	border-top: 2px solid pink;
+	border-left: 2px solid pink;
+	border-right: 2px solid pink;
+	background: rgba(255,255,255,0.2);
+	-webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+	display:inline;
+}
+
+.navitem a{
+	width: 100%;
+	text-decoration:none;
+	padding: 10px;
+	font-size: 12pt;
+}
+
+.navitem:hover
+{
+	background: rgba(255,255,255,0.4);
+}
+
+.currentnavitem
+{
+	background: rgba(255,255,255,0.4);
+}
+
+.searchtag, .tweet_hashtag
+{
+
+}
+
+.searchtag:hover, .tweet_hashtag:hover
+{
+	
+}
